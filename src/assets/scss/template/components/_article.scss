@@ -1,0 +1,27 @@
+.main_character {
+  margin: 2rem 2.5rem;
+  border-bottom: .5rem solid $light-green;
+  box-shadow: 0 0 .5rem $grey;
+  &:hover {
+    box-shadow: 0 0 1rem $black;
+  }
+
+  .main_character-container-item {
+    @include size();
+
+    .main_character-container-item {
+      @include size();
+
+      .main_character-container-item-image {
+        object-fit: cover;
+      }
+
+      .main_character-container-item-name {
+        padding: 1rem 0;
+        text-align: center;
+        font-size: 2rem;
+        color: $black;
+      }
+    }
+  }
+}

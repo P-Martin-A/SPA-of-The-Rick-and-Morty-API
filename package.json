@@ -1,0 +1,25 @@
+{
+  "name": "spa-rick-and-morty-api",
+  "version": "1.0.0",
+  "description": "SPA con información de una API de 'The Rick and Morty'",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-cli serve --open --mode development"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "YO",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.1",
+    "html-webpack-plugin": "^5.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

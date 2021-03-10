@@ -1,0 +1,17 @@
+// UTILS
+@import './utils/vars';
+@import './utils/mixins';
+
+// BASE 
+@import './base/base';
+
+// TEMAPLTE
+  // LAYOUTS
+  @import './template/layouts/header';
+  @import './template/layouts/main';
+
+  // COMPONENTS
+  @import './template/components/nav';
+  @import './template/components/article';
+  @import './template/components/section';
+  @import './template/components/error404';

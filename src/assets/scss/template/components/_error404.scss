@@ -1,0 +1,20 @@
+.main_error404 {
+  @include size(80vw, 80vh);
+  @include display-flex();
+
+  .main_error404-title {
+    font-size: 4vw;
+    animation: title 2s ease-in-out infinite;
+    color: $red;
+    text-shadow: 0 0 1rem $black;
+  }
+
+  @keyframes title {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+  }
+}

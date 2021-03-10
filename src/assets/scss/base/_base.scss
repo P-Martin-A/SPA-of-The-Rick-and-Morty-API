@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+
+  body {
+    @include display-grid();
+    font-family: $font-family;
+
+    ul li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
